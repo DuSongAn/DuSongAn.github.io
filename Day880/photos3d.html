@@ -10,12 +10,12 @@
 				height: 100%;
 			}
 			body{
-				background: url(img/p27.jpg);
+				background: url(img/p24.gif);
 				background-size: 100%;
 			}
 			div{
-				width: 280px;
-				height: 400px;
+				width: 230px;
+				height: 320px;
 				position: fixed;
 				top: 0;
 				left: 0;
@@ -24,7 +24,13 @@
 				margin: auto;
 				transform-style: preserve-3d;
 				animation: play 60s linear infinite;
+				
 			}
+			img:hover{
+				width: 400px;
+				height: 500px;
+			}
+			
 			@keyframes play{
 				0%{
 					transform: rotateX(0deg) rotateY(0deg);
@@ -43,8 +49,8 @@
 				}
 			}
 			div img{
-				width: 280px;
-				height: 400px;
+				width: 200px;
+				height: 320px;
 				position: absolute;
 			}
 			div img:nth-child(1){transform: rotateY(0deg) translatez(650px);}
@@ -63,17 +69,17 @@
 	</head>
 	<body>
 		<div>
-		<img src="img/p06.jpg" />
-		<img src="img/p07.jpg" />
-		<img src="img/p08.jpg" />
-		<img src="img/p09.jpg" />
-		<img src="img/p10.jpg" />
-		<img src="img/p88.jpg" />
 		<img src="img/p01.jpg" />
-		<img src="img/p12.jpg" />
+		<img src="img/p06.jpg" />
+		<img src="img/p09.jpg" />
+		<img src="img/p08.jpg" />
 		<img src="img/p89.jpg" />
+		<img src="img/p10.jpg" />
+		<img src="img/p12.jpg" />
+		<img src="img/p88.jpg" />
+		<img src="img/p07.jpg" />
 		<img src="img/p99.jpg" />
 		</div>
-		<audio src="img/ccc.mp3" autoplay="autoplay"></audio>
+		<audio src="ccc.mp3" autoplay="autoplay"></audio>
 	</body>
 </html>
